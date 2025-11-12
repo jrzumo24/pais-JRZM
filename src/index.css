@@ -1,0 +1,82 @@
+body {
+  background-color: #ad0202;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+} 
+
+.app-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #aa0000;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #ff0000;
+  box-shadow: 0 0 6px rgba(122, 11, 11, 0.5);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f8f9fa;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+li:hover {
+  background: #e6f0ff;
+  transform: scale(1.02);
+}
+
+.country-details {
+  text-align: center;
+}
+
+.country-details h2 {
+  color: #410505;
+}
+
+.country-details img {
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #34495e;
+}
